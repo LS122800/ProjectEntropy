@@ -1,357 +1,269 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 32692 MB
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 16284 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ez900/Documents/GitHub/ProjectEntropy/Project Entropy
+D:/ProjectEntropy/ProjectEntropy/Project Entropy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56598
-Successfully changed project path to: C:/Users/ez900/Documents/GitHub/ProjectEntropy/Project Entropy
-C:/Users/ez900/Documents/GitHub/ProjectEntropy/Project Entropy
+57602
+Successfully changed project path to: D:/ProjectEntropy/ProjectEntropy/Project Entropy
+D:/ProjectEntropy/ProjectEntropy/Project Entropy
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 106.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ez900/Documents/GitHub/ProjectEntropy/Project Entropy/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProjectEntropy/ProjectEntropy/Project Entropy/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
     Vendor:   
-    VRAM:     12143 MB
-    Driver:   27.21.14.7005
+    VRAM:     6052 MB
+    Driver:   24.21.13.9942
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001584 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003027 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 64.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  2.094 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001577 seconds.
+Registered in 0.001602 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  1.260 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2932 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.2 MB.
-System memory in use after: 131.4 MB.
+Unloading 2944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.7 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3378.
-Total: 2.602100 ms (FindLiveObjects: 0.351600 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.130600 ms  DeleteObjects: 0.027800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom
-  artifactKey: Guid(fe6f9b07b1f425f448e8c57dda0911f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom using Guid(fe6f9b07b1f425f448e8c57dda0911f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbd2d5fc7d0f39037f62e46d06c719e') in 0.010098 seconds
-  Import took 0.014183 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 3.352600 ms (FindLiveObjects: 0.730600 ms CreateObjectMapping: 0.191500 ms MarkObjects: 2.406700 ms  DeleteObjects: 0.022800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.110003 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_00.png
-  artifactKey: Guid(2cf0f28ad1ea512438746a3e703be184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_00.png using Guid(2cf0f28ad1ea512438746a3e703be184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4107f683a0b495cd62fa171674f77e9d') in 0.107191 seconds
-  Import took 0.112026 seconds .
+  path: Assets/Palettes/tileset-sliced_64.asset
+  artifactKey: Guid(b2eaf04dbfec88f42bd974ea1908c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_64.asset using Guid(b2eaf04dbfec88f42bd974ea1908c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68b4b18efaf526d8f96c9d5e5f83c60') in 0.137660 seconds
+  Import took 0.196113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_06.png
-  artifactKey: Guid(1271b5b21d9b16246b9eb84264f240c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_06.png using Guid(1271b5b21d9b16246b9eb84264f240c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498e300d069e2bfe25573daf2e9f661e') in 0.018183 seconds
-  Import took 0.022914 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/Palettes/tileset-sliced_55.asset
+  artifactKey: Guid(64fe83e2e419ec94da55c3b240bbb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_55.asset using Guid(64fe83e2e419ec94da55c3b240bbb057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bb90cbad2247c2d1b41b44cfa79534') in 0.036784 seconds
+  Import took 0.045544 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_18.png
-  artifactKey: Guid(2970d5fb37bf29e42b28186af73ddf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_18.png using Guid(2970d5fb37bf29e42b28186af73ddf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949b7f3b638357b249db3bf67ef75003') in 0.027164 seconds
-  Import took 0.032239 seconds .
+  Time since last request: 0.000734 seconds.
+  path: Assets/Palettes/tileset-sliced_47.asset
+  artifactKey: Guid(034eb74a51bb55f4fb3bccc96b26884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_47.asset using Guid(034eb74a51bb55f4fb3bccc96b26884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f791f83469a794b1931bf8f6bc5a948e') in 0.036606 seconds
+  Import took 0.332942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_08.png
-  artifactKey: Guid(ebccefd35c916fa4184e7bb57d14f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_08.png using Guid(ebccefd35c916fa4184e7bb57d14f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cadbe195bb6f6fc87113106ec8e35e') in 0.022846 seconds
-  Import took 0.027430 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Palettes/tileset-sliced_54.asset
+  artifactKey: Guid(6264c44d962b7604daaac5c15fd7fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_54.asset using Guid(6264c44d962b7604daaac5c15fd7fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d88aa7f10927d557e39e89dc632ff') in 0.304665 seconds
+  Import took 0.313222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_30.png
-  artifactKey: Guid(e7f92233e8222844b9a5d9d6f4071e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_30.png using Guid(e7f92233e8222844b9a5d9d6f4071e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffca2baa719fe68719408be3e47e33ac') in 0.027314 seconds
-  Import took 0.031724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_24.png
-  artifactKey: Guid(3d316cdcf4864804b8c4249ae060b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_24.png using Guid(3d316cdcf4864804b8c4249ae060b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9887ea78aaaa0c1ffade878480b684') in 0.030272 seconds
-  Import took 0.034754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_02.png
-  artifactKey: Guid(6aa561eddf724064c98b7af2db3c9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_02.png using Guid(6aa561eddf724064c98b7af2db3c9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09beb1162f4952184ae9339dd5ee2997') in 0.025396 seconds
-  Import took 0.029811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_04.png
-  artifactKey: Guid(d729b9ea259517f479d5adeae4939f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_04.png using Guid(d729b9ea259517f479d5adeae4939f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29afaa2219d16cc9d73bcb3c2ddf9bf') in 0.023949 seconds
-  Import took 0.027895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_28.png
-  artifactKey: Guid(f8fec1b7a5f58264bb8df477a4f8ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_28.png using Guid(f8fec1b7a5f58264bb8df477a4f8ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584e06e5597ca028dd831026ca4cb1d3') in 0.014442 seconds
-  Import took 0.018782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_12.png
-  artifactKey: Guid(935d1af88c20ace46983ae26033bfe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_12.png using Guid(935d1af88c20ace46983ae26033bfe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126611c8d1da596b03c7152611ca23af') in 0.016973 seconds
-  Import took 0.020979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_14.png
-  artifactKey: Guid(5f0407feab339da4d90841f20e604907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_14.png using Guid(5f0407feab339da4d90841f20e604907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1fec4988dbb1015d483385569462b3') in 0.015165 seconds
-  Import took 0.019523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_26.png
-  artifactKey: Guid(7beb3fbef8186c6498a186f30f99bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_26.png using Guid(7beb3fbef8186c6498a186f30f99bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f42c595d671b86e65350dbc4be7499') in 0.014001 seconds
-  Import took 0.018436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_20.png
-  artifactKey: Guid(a0d676d395abb034eb21f49d8745677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_20.png using Guid(a0d676d395abb034eb21f49d8745677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcce4fa5b27dfb5ea4469c5df687c90b') in 0.014896 seconds
-  Import took 0.018979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_16.png
-  artifactKey: Guid(6e5d8ba94e3791d4abc418a72df479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_16.png using Guid(6e5d8ba94e3791d4abc418a72df479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd208dd434c2ea05e444c705d68b3e49c') in 0.013958 seconds
-  Import took 0.017823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_22.png
-  artifactKey: Guid(ecdb88d819e369b439dd6e9d1d95b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_22.png using Guid(ecdb88d819e369b439dd6e9d1d95b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8952a832d9cd8ce3ca48b5540b84dd30') in 0.014932 seconds
-  Import took 0.019677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png
-  artifactKey: Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png using Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acfd98d58eb1d71f7e989815a64b34a') in 0.014851 seconds
-  Import took 0.018920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.059864 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom.anim
-  artifactKey: Guid(c0d50b796144ce841ab592dfb2ef7d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom.anim using Guid(c0d50b796144ce841ab592dfb2ef7d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29642d9eedc3ef3e28eb36934c86dd17') in 0.007122 seconds
-  Import took 0.011735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 685.046116 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_00.png
-  artifactKey: Guid(2cf0f28ad1ea512438746a3e703be184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_00.png using Guid(2cf0f28ad1ea512438746a3e703be184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713dcff199bca828ad3f59a541286a15') in 0.037758 seconds
-  Import took 0.043354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_06.png
-  artifactKey: Guid(1271b5b21d9b16246b9eb84264f240c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_06.png using Guid(1271b5b21d9b16246b9eb84264f240c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d05d7fc1fc26fe63e87071de01d93d') in 0.017916 seconds
-  Import took 0.023046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_18.png
-  artifactKey: Guid(2970d5fb37bf29e42b28186af73ddf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_18.png using Guid(2970d5fb37bf29e42b28186af73ddf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019d50d54e732adacf0d3917e1b34c8f') in 0.016538 seconds
-  Import took 0.020676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_08.png
-  artifactKey: Guid(ebccefd35c916fa4184e7bb57d14f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_08.png using Guid(ebccefd35c916fa4184e7bb57d14f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1322a83ea4596f1aecf486b17d218e35') in 0.020237 seconds
-  Import took 0.024186 seconds .
+  Time since last request: 0.000524 seconds.
+  path: Assets/Palettes/tileset-sliced_46.asset
+  artifactKey: Guid(88f15fb94d9cb4042a55acd7c48a5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_46.asset using Guid(88f15fb94d9cb4042a55acd7c48a5fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc0f89dc03e36787ae2bacceaeba8c2') in 0.030960 seconds
+  Import took 0.208515 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_30.png
-  artifactKey: Guid(e7f92233e8222844b9a5d9d6f4071e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_30.png using Guid(e7f92233e8222844b9a5d9d6f4071e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e8361578b5c3d063297d3112d7246') in 0.016166 seconds
-  Import took 0.020484 seconds .
+  path: Assets/Palettes/tileset-sliced_61.asset
+  artifactKey: Guid(5b36cec766a8019449a4869cf9b1f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_61.asset using Guid(5b36cec766a8019449a4869cf9b1f1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa20753aa257efa0f86d35f9928ff6c2') in 0.025290 seconds
+  Import took 0.034286 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_24.png
-  artifactKey: Guid(3d316cdcf4864804b8c4249ae060b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_24.png using Guid(3d316cdcf4864804b8c4249ae060b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f6d162efd0c8014f7f34a2b810feeb') in 0.015531 seconds
-  Import took 0.019380 seconds .
+  Time since last request: 0.000560 seconds.
+  path: Assets/Palettes/tileset-sliced_49.asset
+  artifactKey: Guid(d00197c082217574087d4033951b1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_49.asset using Guid(d00197c082217574087d4033951b1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd81ce6871172096ebfa732909be4a9') in 0.284468 seconds
+  Import took 0.297042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_02.png
-  artifactKey: Guid(6aa561eddf724064c98b7af2db3c9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_02.png using Guid(6aa561eddf724064c98b7af2db3c9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103c1f38115a94cc8af187ad9240042a') in 0.013651 seconds
-  Import took 0.018561 seconds .
+  Time since last request: 0.000738 seconds.
+  path: Assets/Palettes/tileset-sliced_63.asset
+  artifactKey: Guid(e77ba453b1cae7d469541294452a5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_63.asset using Guid(e77ba453b1cae7d469541294452a5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194fa9bd9b8ae0d90b9319a9082b1db3') in 0.037176 seconds
+  Import took 0.152744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_04.png
-  artifactKey: Guid(d729b9ea259517f479d5adeae4939f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_04.png using Guid(d729b9ea259517f479d5adeae4939f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ee04bb8ce160af1a7237bad7b6ee2') in 0.015087 seconds
-  Import took 0.019939 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/Palettes/tileset-sliced_48.asset
+  artifactKey: Guid(45665b5a195e50e4cb2c9c10e8c023cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_48.asset using Guid(45665b5a195e50e4cb2c9c10e8c023cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25f7f35f82c2056df17ad687c52bcbf') in 0.023160 seconds
+  Import took 0.032604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_28.png
-  artifactKey: Guid(f8fec1b7a5f58264bb8df477a4f8ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_28.png using Guid(f8fec1b7a5f58264bb8df477a4f8ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8175f78397d1a7fd6fc234e7e934035e') in 0.017438 seconds
-  Import took 0.021472 seconds .
+  Time since last request: 0.000493 seconds.
+  path: Assets/Palettes/tileset-sliced_52.asset
+  artifactKey: Guid(e94cb8ee3baa59f4eb4ecec38788906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_52.asset using Guid(e94cb8ee3baa59f4eb4ecec38788906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c239564f7c10e9bd6cab9437946b0899') in 0.026030 seconds
+  Import took 0.037284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_12.png
-  artifactKey: Guid(935d1af88c20ace46983ae26033bfe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_12.png using Guid(935d1af88c20ace46983ae26033bfe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71d6c116f8b2f211c304d1b662c6ef6') in 0.017439 seconds
-  Import took 0.021958 seconds .
+  Time since last request: 0.000512 seconds.
+  path: Assets/Palettes/tileset-sliced_59.asset
+  artifactKey: Guid(eb95a77e12d84d84d8b200a3ca289818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_59.asset using Guid(eb95a77e12d84d84d8b200a3ca289818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c79af0939f0ceae573b76b45c5ddaf0') in 0.028584 seconds
+  Import took 0.042029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_14.png
-  artifactKey: Guid(5f0407feab339da4d90841f20e604907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_14.png using Guid(5f0407feab339da4d90841f20e604907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6300d966df07122f645fde9ed97fe216') in 0.019580 seconds
-  Import took 0.023998 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/Palettes/tileset-sliced_62.asset
+  artifactKey: Guid(953bad4dab5fae34d9cafdcdeed26482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_62.asset using Guid(953bad4dab5fae34d9cafdcdeed26482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbef26fd18c966bcc951264ca5c421ad') in 0.025138 seconds
+  Import took 0.035792 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_26.png
-  artifactKey: Guid(7beb3fbef8186c6498a186f30f99bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_26.png using Guid(7beb3fbef8186c6498a186f30f99bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8fd0d49147a087192fb93aeff8cc2d') in 0.018300 seconds
-  Import took 0.023124 seconds .
+  Time since last request: 0.000478 seconds.
+  path: Assets/Palettes/tileset-sliced_44.asset
+  artifactKey: Guid(8d4a8905360b31e47bfb0f34d9de2168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_44.asset using Guid(8d4a8905360b31e47bfb0f34d9de2168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a4bd01f1fabb8ad9da2fe985b13a94') in 0.025402 seconds
+  Import took 0.035678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_20.png
-  artifactKey: Guid(a0d676d395abb034eb21f49d8745677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_20.png using Guid(a0d676d395abb034eb21f49d8745677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5635cf89bcb73fb502c623ef159b013') in 0.019428 seconds
-  Import took 0.024751 seconds .
+  Time since last request: 0.000553 seconds.
+  path: Assets/Palettes/tileset-sliced_56.asset
+  artifactKey: Guid(ba99b0223130d6b4bbf8cd66608ff6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_56.asset using Guid(ba99b0223130d6b4bbf8cd66608ff6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f42add4c6399e0698a3bf309b744757') in 0.022297 seconds
+  Import took 0.030162 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_16.png
-  artifactKey: Guid(6e5d8ba94e3791d4abc418a72df479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_16.png using Guid(6e5d8ba94e3791d4abc418a72df479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2fcee20c8274c57c599095c0f11f7d') in 0.019288 seconds
-  Import took 0.023673 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Palettes/tileset-sliced_66.asset
+  artifactKey: Guid(429a70daacece414ba920baa5cd9a2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_66.asset using Guid(429a70daacece414ba920baa5cd9a2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4557696d62ba1bfdf8b1cc76cc6b7b91') in 0.022004 seconds
+  Import took 0.033693 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_22.png
-  artifactKey: Guid(ecdb88d819e369b439dd6e9d1d95b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_22.png using Guid(ecdb88d819e369b439dd6e9d1d95b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6062812ce8e4700b98b2aef353e1a97') in 0.016773 seconds
-  Import took 0.021195 seconds .
+  Time since last request: 0.000348 seconds.
+  path: Assets/Palettes/tileset-sliced_65.asset
+  artifactKey: Guid(ca50dbd2df539224e949d4aad94e7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_65.asset using Guid(ca50dbd2df539224e949d4aad94e7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b743bfb1a4dd881031ff02a45cdf713') in 0.033895 seconds
+  Import took 0.045582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png
-  artifactKey: Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png using Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224c6cda530d4e1078549bf479da785') in 0.016641 seconds
-  Import took 0.020889 seconds .
+  Time since last request: 0.000679 seconds.
+  path: Assets/Palettes/tileset-sliced_45.asset
+  artifactKey: Guid(25a02a5407eff1443b5d37ff062bec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_45.asset using Guid(25a02a5407eff1443b5d37ff062bec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08643680f13d37a1b162e40707f58330') in 0.027935 seconds
+  Import took 0.037865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003457 seconds.
-  path: Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png
-  artifactKey: Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Campfire_enemy/campfire_boom/campfire_boom_10.png using Guid(99d83071f3f99c64288c391b900423d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224c6cda530d4e1078549bf479da785') in 0.012993 seconds
-  Import took 0.017591 seconds .
+  Time since last request: 0.000710 seconds.
+  path: Assets/Palettes/tileset-sliced_51.asset
+  artifactKey: Guid(08530ae6ea2af77488d03aefed45b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_51.asset using Guid(08530ae6ea2af77488d03aefed45b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9b4885b67f767c8707c6d9c178fe90') in 0.020764 seconds
+  Import took 0.031305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Palettes/tileset-sliced_58.asset
+  artifactKey: Guid(a1d85ecfc7fe2c44782a9f67c868de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_58.asset using Guid(a1d85ecfc7fe2c44782a9f67c868de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4105447bf1acbcb47430f2bc10ab0909') in 0.021360 seconds
+  Import took 0.032716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Palettes/tileset-sliced_67.asset
+  artifactKey: Guid(6c9f0a41ea1c8864090904cb00ee9098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_67.asset using Guid(6c9f0a41ea1c8864090904cb00ee9098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91e672680a564e0cbe6d07087c7664a') in 0.023807 seconds
+  Import took 0.034948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Palettes/tileset-sliced_57.asset
+  artifactKey: Guid(bf8fa8ca98a724246890a84e5d12a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_57.asset using Guid(bf8fa8ca98a724246890a84e5d12a9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad5a41d5d3970ef02d3c1f8bf971660') in 0.025226 seconds
+  Import took 0.037279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Palettes/tileset-sliced_50.asset
+  artifactKey: Guid(723d0a06c2b648048914f2b1a1f034c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_50.asset using Guid(723d0a06c2b648048914f2b1a1f034c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94866a289c00ef87a9675a032414540c') in 0.022007 seconds
+  Import took 0.032430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Palettes/tileset-sliced_53.asset
+  artifactKey: Guid(8398582b6b12701409184d75841e6dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_53.asset using Guid(8398582b6b12701409184d75841e6dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be04fbf1eaa8da150d65249189c9c8') in 0.022846 seconds
+  Import took 0.039235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Palettes/tileset-sliced_60.asset
+  artifactKey: Guid(fde666612a5a75e45adefae8487c9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/tileset-sliced_60.asset using Guid(fde666612a5a75e45adefae8487c9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaafdd2246eabaf9de7138294ebf2ac') in 0.024699 seconds
+  Import took 0.034873 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
