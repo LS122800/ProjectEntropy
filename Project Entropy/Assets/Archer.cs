@@ -23,8 +23,9 @@ public class Archer : MonoBehaviour
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
+        float distance = Vector2.Distance(transform.position, target.transform.position);
         timer += Time.deltaTime;
-        if (timer > waitingTime)
+        if (timer > waitingTime && distance < 10)
         {
             GameObject arrowSpawn = Instantiate(arrow, transform.position, transform.rotation);
             timer = 1;
