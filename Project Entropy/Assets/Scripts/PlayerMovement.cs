@@ -98,7 +98,10 @@ public class PlayerMovement : MonoBehaviour
         int i = 0;
         foreach (Transform spell in transform)
         {
-            if (i == spell_equipped || i == 2)
+            // Need to adjust this when more spells are added. 
+            // Player's snow scene effect must be accounted for (so the snow will be visible)
+            // Since the snow scene is part of the player.
+            if (i == spell_equipped || i == 2 || i ==3)
                 spell.gameObject.SetActive(true);
             else
                 spell.gameObject.SetActive(false);
