@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15074d79df22bb6498c7fc751b1cd414, type: 3}
+  m_Name: BallLightning
+  m_EditorClassIdentifier: 
+  name: BallLightning
+  description: 
+  dmgType: Lightning
+  id: 4
+  damage: 25
+  staminaCost: 0
+  tempCost: 6
+  healthCost: 0
+  range: 3
+  castTime: 0
+  cooldown: 3
+  AOE: 0
+  projectile: {fileID: 1395721498995143936, guid: 5b72f8b24084c9d4fb882a16413c9282, type: 3}

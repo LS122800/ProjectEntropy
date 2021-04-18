@@ -59,7 +59,7 @@ public class Temperature : MonoBehaviour
                 }
                 else if (Time.time - currentBlizzardTimer < 60 && currentTemperature == -30)
                 {
-                    currentTemperature = currentTemperature;
+                   // currentTemperature = currentTemperature;
                     currentBlizzardTimer = Time.time;
                     Debug.Log(currentTemperature);
                 }
@@ -130,7 +130,7 @@ public class Temperature : MonoBehaviour
 
                 else
                 {
-                    currentTemperature = currentTemperature;
+                    //currentTemperature = currentTemperature;
                     Debug.Log(currentTemperature);
                 }
             }

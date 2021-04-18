@@ -49,18 +49,22 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SpellHandler.cs" />
+     <Compile Include="Assets\Lunger.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\PlayerVitals.cs" />
      <Compile Include="Assets\Scripts\Temperature.cs" />
      <Compile Include="Assets\Scripts\SpellDatabase.cs" />
+     <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\Scripts\VitalBar.cs" />
      <Compile Include="Assets\Scripts\SpellComponent.cs" />
      <Compile Include="Assets\Scripts\Spell_Inventory.cs" />
      <Compile Include="Assets\Scripts\Database.cs" />
      <Compile Include="Assets\Scenes\defaultImporter.cs" />
      <Compile Include="Assets\Scripts\Example.cs" />
+     <Compile Include="Assets\Chaser.cs" />
      <Compile Include="Assets\Scripts\light_flicker.cs" />
+     <Compile Include="Assets\Archer.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Spell.cs" />
  <Reference Include="UnityEngine">

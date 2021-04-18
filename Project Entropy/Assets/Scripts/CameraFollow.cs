@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
-    private float camMoveSpeed = 2f;
+    private float camMoveSpeed = 3f;
     void Update()
     {
         Vector3 camFollowPos = target.position;

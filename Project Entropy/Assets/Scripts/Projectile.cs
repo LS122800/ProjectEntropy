@@ -47,10 +47,12 @@ public class Projectile : MonoBehaviour
              {
                 c.GetComponent<Enemy>().takeDamage(spell.damage, spell.dmgType);
              }        
-             if(c.GetComponent<PlayerVitals>() != null)
+             if(c.GetComponent<PlayerVitals>() != null && spell.name != "Flamewreathe")
              {
                 c.GetComponent<PlayerVitals>().takeDamage(spell.damage);
              }
         }
     }
+
+    
 }

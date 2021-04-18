@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpellHandler : MonoBehaviour
 {
     public Spell spell;
+    public GameObject player;
     public Transform spawn_pos;
     private Vector2 mouse_pos;
     private float lastCastTime;
@@ -51,14 +52,21 @@ public class SpellHandler : MonoBehaviour
         }
         if(canCast)
         {
-            Debug.Log(spell.name);
-            Vector2 cast_location = (Vector2)spawn_pos.position;
-            Vector2 direction = (mouse_pos - cast_location);
-            direction.Normalize();
-
-
-            GameObject casted = (GameObject)Instantiate(spell.projectile, cast_location, Quaternion.identity);
-            casted.GetComponent<Rigidbody2D>().velocity = direction * 30;
+            if (spell.name == "Mark")
+            {
+                player.GetComponent<PlayerMovement>().mark();
+            } else if (spell.name == "Recall")
+            {
+                player.GetComponent<PlayerMovement>().recall();
+            } else
+            {
+                Debug.Log(spell.name);
+                Vector2 cast_location = (Vector2)spawn_pos.position;
+                Vector2 direction = (mouse_pos - cast_location);
+                direction.Normalize();
+                GameObject casted = (GameObject)Instantiate(spell.projectile, cast_location, Quaternion.identity);
+                casted.GetComponent<Rigidbody2D>().velocity = direction * 30;
+            }
         }
     }
 }

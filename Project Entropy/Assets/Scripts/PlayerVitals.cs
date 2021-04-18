@@ -11,16 +11,21 @@ public class PlayerVitals : MonoBehaviour
     public float maxTemperature = 98.6f;
     public float temperature;
 
+    public bool invulnerable = false;
+
     public VitalBar healthbar;
     public VitalBar staminabar;
     public VitalBar tempbar;
 
     public Temperature ambientTemperature;
 
+    private float dmgColorTimer;
     private float ambientTimer;
     private float staminaRechargeTimer;
     private float tempDamageTimer;
     private float tempDamage;
+
+    SpriteRenderer playerSprite;
 
     void Start()
     {
@@ -33,6 +38,10 @@ public class PlayerVitals : MonoBehaviour
         staminaRechargeTimer = Time.time;
         tempDamageTimer = Time.time;
         ambientTimer = Time.time;
+        dmgColorTimer = Time.time;
+
+        playerSprite = this.GetComponent<SpriteRenderer>();
+        playerSprite.color = Color.red;
     }
 
     void Update()
@@ -56,6 +65,10 @@ public class PlayerVitals : MonoBehaviour
             }
         }
 
+        if(Time.time - dmgColorTimer > 0.3)
+        {
+            playerSprite.color = Color.white;
+        }
         if(Time.time - ambientTimer > 2)
         {
             ambientTimer = Time.time;
@@ -65,12 +78,27 @@ public class PlayerVitals : MonoBehaviour
 
     public void takeDamage(float damage)
     {
-        health -= damage;
-        healthbar.setFill(health);
-        if (health < 0)
+        if(!invulnerable)
         {
-            die();
+            playerSprite.color = Color.red;
+            dmgColorTimer = Time.time;
+            health -= damage;
+            healthbar.setFill(health);
+            if (health < 0)
+            {
+                die();
+            }
         }
+    }
+
+    public void setVulnerable()
+    {
+        invulnerable = false;
+    }
+
+    public void setInvulnerable()
+    {
+        invulnerable = true;
     }
 
     public void changeTemp(float tempChange)
@@ -98,6 +126,5 @@ public class PlayerVitals : MonoBehaviour
     {
         float change = (float)(0.009 * (temperature - testTemperature));
         changeTemp(change);
-
     }
 }

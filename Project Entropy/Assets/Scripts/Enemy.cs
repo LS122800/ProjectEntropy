@@ -11,10 +11,22 @@ public class Enemy : MonoBehaviour
     public bool lightningResistant = false;
     public bool invulnerable = false;
 
+    private float dmgColorTimer;
+    SpriteRenderer enemySprite;
+
+    void Start()
+    {
+        dmgColorTimer = Time.time;
+        enemySprite = this.GetComponent<SpriteRenderer>();
+    }
 
     void Update()
     {
         invulnerable = false;
+        if(Time.time - dmgColorTimer > 0.3)
+        {
+            enemySprite.color = Color.yellow;
+        }
     }
 
     public void takeDamage(float dmg, string dmgType)
@@ -69,6 +81,8 @@ public class Enemy : MonoBehaviour
             die();
         }
         Debug.Log("Target took " + dmgMessage + " " +  dmgType + " damage");
+        dmgColorTimer = Time.time;
+        enemySprite.color = Color.red;
     }
 
     void die()
