@@ -9713,19 +9713,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.85
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.81
+      value: 3.16
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9761,19 +9761,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Size.y
-      value: 1
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 95f826d412e889f4898d88930054123b, type: 3}
+      objectReference: {fileID: 21300000, guid: c16e63479c7a6674a833bacefe25d2a7, type: 3}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_SortingLayerID
@@ -112506,19 +112506,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.9
+      value: -30.55
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.91
+      value: 9.63
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983527, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -112554,16 +112554,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Size.y
-      value: 1
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 95f826d412e889f4898d88930054123b, type: 3}
+      objectReference: {fileID: 21300000, guid: c16e63479c7a6674a833bacefe25d2a7, type: 3}
     - target: {fileID: 3034085769834983544, guid: eb4544b535ad7460cbc5d38c2b30d3ae, type: 3}
       propertyPath: m_SortingLayer
       value: 3
