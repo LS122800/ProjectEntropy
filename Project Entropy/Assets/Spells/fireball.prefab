@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -5185603949099012312}
   - component: {fileID: 4916545226949168274}
   - component: {fileID: 2538539579551162428}
+  - component: {fileID: 280428170173937599}
   m_Layer: 0
   m_Name: fireball
   m_TagString: Untagged
@@ -147,3 +148,44 @@ MonoBehaviour:
   spell: {fileID: 11400000, guid: ec3b4666e39be3545bb8b182d22cdb7a, type: 2}
   spellParticle: {fileID: 8734374343150345885, guid: d9284d72b37504b1d9b72ee212d23ec2, type: 3}
   impactParticle: {fileID: 9041374754984433170, guid: fa96e995cc1224124a5aa78f07cb7100, type: 3}
+--- !u!114 &280428170173937599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761606049707683795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.451
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Intensity: 25
+  m_LightVolumeOpacity: 0.03
+  m_ApplyToSortingLayers: 00000000133a2061
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 2
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
