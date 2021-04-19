@@ -131,7 +131,7 @@ public class PlayerMovement : MonoBehaviour
         int i = 0;
         foreach (Transform spell in transform)
         {
-            if (i == spell_equipped || i == 9)
+            if (i == spell_equipped || i >16)
                 spell.gameObject.SetActive(true);
             else
                 spell.gameObject.SetActive(false);

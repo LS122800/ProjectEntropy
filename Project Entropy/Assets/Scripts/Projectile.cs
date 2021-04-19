@@ -7,9 +7,17 @@ public class Projectile : MonoBehaviour
     public Spell spell;
     private float lifetime;
     private float spawntime;
+    public ParticleSystem spellParticle;
+    public ParticleSystem impactParticle;
 
     void OnEnable()
     {
+        if(spellParticle != null)
+        {
+            var sParticles = Instantiate(spellParticle, this.transform.position, Quaternion.identity);
+            sParticles.transform.parent = gameObject.transform;
+            sParticles.Play();
+        }
         lifetime = spell.range;
         spawntime = Time.time;
     }
@@ -18,6 +26,10 @@ public class Projectile : MonoBehaviour
         if (lifetime < (Time.time - spawntime))
         {
             aoe();
+            if (impactParticle != null)
+            {
+                var iParticles = Instantiate(impactParticle, this.transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
         }
     }
@@ -33,6 +45,10 @@ public class Projectile : MonoBehaviour
                 aoe();
             }
             Debug.Log(hitInfo.name);
+            if(impactParticle != null)
+            {
+                var iParticles = Instantiate(impactParticle, this.transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
         }
     }
@@ -52,7 +68,5 @@ public class Projectile : MonoBehaviour
                 c.GetComponent<PlayerVitals>().takeDamage(spell.damage);
              }
         }
-    }
-
-    
+    }   
 }

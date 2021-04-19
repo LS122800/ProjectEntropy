@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerVitals : MonoBehaviour
 {
+    public GameObject gameOverUI;
     public float maxHealth = 100f;
     public float health;
     public float maxStamina = 100f;
@@ -52,7 +53,7 @@ public class PlayerVitals : MonoBehaviour
             staminaRechargeTimer = Time.time;
         }
 
-        if(Time.time - tempDamageTimer > 2 && temperature < 78)
+        if(Time.time - tempDamageTimer > 20 && temperature < 78)
         {
             if(temperature <= 55)
             {
@@ -69,10 +70,10 @@ public class PlayerVitals : MonoBehaviour
         {
             playerSprite.color = Color.white;
         }
-        if(Time.time - ambientTimer > 2)
+        if(Time.time - ambientTimer > 20)
         {
             ambientTimer = Time.time;
-            testAmbientTempFormula(ambientTemperature.currentTemperature);   
+            AmbientTempFormula(ambientTemperature.currentTemperature);   
         }
     }
 
@@ -119,12 +120,14 @@ public class PlayerVitals : MonoBehaviour
 
     void die()
     {
-        Destroy(gameObject);
+        gameOverUI.SetActive(true);
+        Time.timeScale = 0f;
+        //Destroy(gameObject);
     }
 
-    void testAmbientTempFormula(double testTemperature)
+    void AmbientTempFormula(double temp)
     {
-        float change = (float)(0.009 * (temperature - testTemperature));
+        float change = (float)(0.009 * (temperature - temp));
         changeTemp(change);
     }
 }

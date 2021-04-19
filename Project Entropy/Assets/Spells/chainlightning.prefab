@@ -145,3 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 11400000, guid: ff43c23256605f645836ea84e1ef6abc, type: 2}
+  spellParticle: {fileID: 374316159924606780, guid: 2c7f6a58c61ec44368942536e7f69873, type: 3}
+  impactParticle: {fileID: 6087088384004100952, guid: 8221e53dd13274ba8b98ba4e6564e04e, type: 3}

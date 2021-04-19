@@ -20,7 +20,7 @@ MonoBehaviour:
   staminaCost: 0
   tempCost: 0
   healthCost: 0
-  range: 0
+  range: 0.0001
   castTime: 0
   cooldown: 0
   AOE: 0

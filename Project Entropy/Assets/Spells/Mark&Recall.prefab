@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428900248812740093}
+  - component: {fileID: 403769647699143686}
   m_Layer: 0
   m_Name: Mark&Recall
   m_TagString: Untagged
@@ -30,3 +31,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403769647699143686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189934267176791575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4cce7380dafe14bb4f6dcc678adbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spell: {fileID: 11400000, guid: eaee953e860adc7438ce747077efc2ee, type: 2}
+  spellParticle: {fileID: 0}
+  impactParticle: {fileID: 3027743488165195974, guid: e903709206ffa487ebc71e1f9bd40440, type: 3}

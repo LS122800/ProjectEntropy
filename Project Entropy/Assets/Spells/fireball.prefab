@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1629501971
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 88f9a6b14df814444b270887bbf0881f, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -145,3 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 11400000, guid: ec3b4666e39be3545bb8b182d22cdb7a, type: 2}
+  spellParticle: {fileID: 8734374343150345885, guid: d9284d72b37504b1d9b72ee212d23ec2, type: 3}
+  impactParticle: {fileID: 9041374754984433170, guid: fa96e995cc1224124a5aa78f07cb7100, type: 3}

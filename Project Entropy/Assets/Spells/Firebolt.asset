@@ -22,6 +22,6 @@ MonoBehaviour:
   healthCost: 0
   range: 3
   castTime: 0.01
-  cooldown: 0.3
+  cooldown: 0.5
   AOE: 0
   projectile: {fileID: 562967174162543755, guid: 9c95b98cde3b76341b044895e35eb00e, type: 3}
