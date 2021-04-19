@@ -75,6 +75,17 @@ public class PlayerVitals : MonoBehaviour
             ambientTimer = Time.time;
             AmbientTempFormula(ambientTemperature.currentTemperature);   
         }
+
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "campfire_prefab")
+        {
+            changeTemp(-1);
+        }
     }
 
     public void takeDamage(float damage)
@@ -108,6 +119,10 @@ public class PlayerVitals : MonoBehaviour
         tempbar.setFill(temperature);
     }
     
+    public float getTemp()
+    {
+        return temperature;
+    }
     public void changeStamina(float staminaChange)
     {
         stamina -= staminaChange;

@@ -58,6 +58,24 @@ public class SpellHandler : MonoBehaviour
             } else if (spell.name == "Recall")
             {
                 player.GetComponent<PlayerMovement>().recall();
+            } else if (spell.dmgType == "Cold")
+            {
+                if(GameObject.Find("Player").GetComponent<PlayerVitals>().getTemp() < 77)
+                {
+                    Debug.Log(spell.name);
+                    Vector2 cast_location = (Vector2)spawn_pos.position;
+                    Vector2 direction = (mouse_pos - cast_location);
+                    direction.Normalize();
+                    GameObject casted = (GameObject)Instantiate(spell.projectile, cast_location, Quaternion.identity);
+                    casted.GetComponent<Rigidbody2D>().velocity = direction * 30;
+                }
+            } else if (spell.name == "Flamewreathe")
+            {
+                Debug.Log(spell.name);
+                Vector2 cast_location = (Vector2)spawn_pos.position;
+                Vector2 direction = (mouse_pos - cast_location);
+                direction.Normalize();
+                GameObject casted = (GameObject)Instantiate(spell.projectile, cast_location, Quaternion.identity);
             } else
             {
                 Debug.Log(spell.name);

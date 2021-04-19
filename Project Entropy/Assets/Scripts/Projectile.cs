@@ -28,7 +28,8 @@ public class Projectile : MonoBehaviour
             aoe();
             if (impactParticle != null)
             {
-                var iParticles = Instantiate(impactParticle, this.transform.position, Quaternion.identity);
+                Quaternion rotation = Quaternion.Euler(-90, 0, 0);
+                var iParticles = Instantiate(impactParticle, this.transform.position, rotation);
             }
             Destroy(gameObject);
         }
@@ -52,7 +53,7 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     void aoe()
     {
         Debug.Log("AOE METHOD");
